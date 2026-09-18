@@ -3,7 +3,7 @@ import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
   FiGrid, FiCpu, FiCode, FiCreditCard, FiSettings,
   FiRefreshCw, FiShoppingBag, FiPackage, FiFileText, FiGlobe, FiGitBranch,
-  FiBox, FiLayers, FiStar, FiUsers, FiShield, FiZap, FiDownload, FiPieChart, FiKey, FiServer, FiAlertTriangle, FiMessageSquare,
+  FiBox, FiLayers, FiStar, FiUsers, FiShield, FiDownload, FiPieChart, FiKey, FiServer, FiAlertTriangle, FiMessageSquare,
   FiMenu, FiChevronLeft, FiChevronRight, FiX
 } from 'react-icons/fi';
 import useSetup from '../../hooks/useSetup';
@@ -51,7 +51,6 @@ const NAV_GROUPS = [
     items: [
         { to: '/developer/studio', label: 'Workflow Studio', icon: FiLayers },
         { to: '/developer/graph-intelligence', label: 'Trust Engine', icon: FiShield },
-        { to: '/developer/commerce/autonomous', label: 'Autonomous Commerce', icon: FiZap },
         { to: '/developer/assistant', label: 'AI Assistant', icon: FiMessageSquare }
     ]
   },

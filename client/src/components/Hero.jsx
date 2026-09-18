@@ -91,7 +91,7 @@ const Hero = () => {
 
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
-              to="/developer/commerce/autonomous"
+              to="/developer/studio"
               className="rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-200"
             >
               See it actually happen
