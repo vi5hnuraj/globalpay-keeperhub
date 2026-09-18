@@ -1,12 +1,10 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
-import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -30,18 +28,15 @@ import pnb from './pnb.png'
 import hdfc from './hdfc.png'
 import chip from './file.png'
 import visa from './master.png'
-import group from './Group (2).png'
 
 export {
   airbnb,
   bill,
   binance,
-  card,
   coinbase,
   dropbox,
   logo,
   quotes,
-  robot,
   send,
   shield,
   star,
@@ -64,6 +59,5 @@ export {
   icici,
   pnb,
   chip,
-  visa,
-  group
+  visa
 };
